@@ -51,12 +51,17 @@ namespace hello
                 button1.BackgroundColor = Color.Green;
                 button2.IsEnabled = true;
                 button2.Opacity = 1;
+                Grid.SetColumn(button1, 1);
+                Grid.SetColumn(button2, 0);
+
             }
             else
             {
                 button1.BackgroundColor = Color.LightSkyBlue;
                 button2.IsEnabled = false;
                 button2.Opacity = 0;
+                Grid.SetColumn(button1, 0);
+                Grid.SetColumn(button2, 1);
             }
         }
        
