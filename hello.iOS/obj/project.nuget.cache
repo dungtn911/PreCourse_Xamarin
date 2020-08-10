@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "cEhBoKJDGyIaYo/mlmBSV7IX7N41FzCoNSsRoxc9KRIZpln0vV+kgc3Slxq86IwQ6cK9/Dxgo1tbk85MXGCnQw==",
+  "success": true,
+  "projectFilePath": "/Users/trung/Projects/hello/hello.iOS/hello.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/trung/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "/Users/trung/.nuget/packages/xamarin.forms/4.8.0.1269/xamarin.forms.4.8.0.1269.nupkg.sha512",
+    "/Users/trung/.nuget/packages/xamarin.testcloud.agent/0.21.9/xamarin.testcloud.agent.0.21.9.nupkg.sha512"
+  ],
+  "logs": []
+}

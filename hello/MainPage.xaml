@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="hello.MainPage">
+   
+    <StackLayout>
+        <Grid Padding="120, 60,120,0"  RowSpacing="50" ColumnSpacing="30">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60" />
+                <RowDefinition Height="60"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="60" />
+                <ColumnDefinition Width="60" />
+            </Grid.ColumnDefinitions>
+            
+             <Button Grid.Row="0" Grid.Column="0" Text="1" x:Name="button1" Clicked="Handle_Click1" BackgroundColor="LightSkyBlue"></Button>
+             <Button Grid.Row="0" Grid.Column="1" Text="2" x:Name="button2" Clicked="Handle_Click2" BackgroundColor="LightSkyBlue"></Button>
+             <Button Grid.Row="1" Grid.Column="0" Text="3" x:Name="button3" Clicked="Handle_Click3" BackgroundColor="LightSkyBlue"></Button>
+             <Button Grid.Row="1" Grid.Column="1" Text="4" x:Name="button4" Clicked="Handle_Click4" BackgroundColor="LightSkyBlue"></Button>
+
+        </Grid>
+        <Label Text="$ Amount..." x:Name = "amountLabel" VerticalOptions="Center" HorizontalOptions="Center" Padding="70"></Label>
+ 
+    </StackLayout>
+   
+</ContentPage>
